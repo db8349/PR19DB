@@ -18,6 +18,6 @@ Podatki o:
 * Vrednosti uvozov: https://data.worldbank.org/indicator/NE.IMP.GNFS.CD
 * Vrednosti investicij: https://data.worldbank.org/indicator/BX.KLT.DINV.CD.WD
 
-Podatki predstavljajo vrednosti za vsako državo v ameriških dolarji ter so v formatu `.csv`.
+Podatki predstavljajo vrednosti za vsako državo v ameriških dolarjih ter so v formatu `.csv`.
 
 V projektu bom tudi vzel pomembnejše dogodke, ki so vplivali na svetoven trg (2007 Kriza hišnega trga v ZDA, 2016 Brexit, 2009 Grška finančna kriza itd.)
