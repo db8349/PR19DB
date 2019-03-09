@@ -10,8 +10,12 @@ znaki, da smo pred njeni pragom. Opazovali bi tudi kako tesno so povezani naši 
 v drugih državah.
 
 ## Podatki
-Podatke bomo primarno vzeli iz https://data.worldbank.org/.
+Podatke bom primarno vzel iz https://data.worldbank.org/.
 
 Podatki o:
 BDP-ju držav: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
-Vrednosti izvozov in uvozov po državah: https://www.trademap.org/Country_SelProduct_TS.aspx?nvpm=1%7c%7c%7c%7c%7cTOTAL%7c%7c%7c2%7c1%7c1%7c2%7c2%7c1%7c2%7c1%7c
+Vrednosti izvozov: https://data.worldbank.org/indicator/bx.gsr.gnfs.cd
+Vrednosti uvozov: https://data.worldbank.org/indicator/NE.IMP.GNFS.CD
+Vrednosti investicij: https://data.worldbank.org/indicator/BX.KLT.DINV.CD.WD
+
+V projektu bom tudi vzel pomembnejše dogodke, ki so vplivali na svetoven trg (2007 Kriza hišnega trga v ZDA, 2016 Brexit, 2009 Grška finančna kriza itd.)
