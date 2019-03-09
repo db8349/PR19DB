@@ -13,9 +13,9 @@ v drugih državah ter ali se res svetovna gospodarska rast upočasnjuje.
 Podatke bom primarno vzel iz https://data.worldbank.org/.
 
 Podatki o:
-*BDP-ju držav: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
-*Vrednosti izvozov: https://data.worldbank.org/indicator/bx.gsr.gnfs.cd
-*Vrednosti uvozov: https://data.worldbank.org/indicator/NE.IMP.GNFS.CD
-*Vrednosti investicij: https://data.worldbank.org/indicator/BX.KLT.DINV.CD.WD
+..* BDP-ju držav: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
+..* Vrednosti izvozov: https://data.worldbank.org/indicator/bx.gsr.gnfs.cd
+..* Vrednosti uvozov: https://data.worldbank.org/indicator/NE.IMP.GNFS.CD
+..* Vrednosti investicij: https://data.worldbank.org/indicator/BX.KLT.DINV.CD.WD
 
 V projektu bom tudi vzel pomembnejše dogodke, ki so vplivali na svetoven trg (2007 Kriza hišnega trga v ZDA, 2016 Brexit, 2009 Grška finančna kriza itd.)
