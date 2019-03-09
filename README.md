@@ -6,16 +6,16 @@ pogled na prihodnost zato bi bilo dobro vedeti, če jo lahko napovemo, da bi se 
 napovedali kje bodo nastale težave iz katerih se bo razvila naslednja kriza.
 
 Cilj tega projekta je ugotoviti, če se da napovedati recesije na podlagi podatkov iz prejšnjih let in če obstajajo očitni
-znaki, da smo pred njeni pragom. Opazovali bi tudi kako tesno so povezani naši trgi z svetovnimi in kako na nas vplivajo krize
-v drugih državah.
+znaki, da smo pred njenim pragom. Opazovali bi tudi kako tesno so povezani naši trgi z svetovnimi in kako na nas vplivajo krize
+v drugih državah ter ali se res svetovna gospodarska rast upočasnjuje.
 
 ## Podatki
 Podatke bom primarno vzel iz https://data.worldbank.org/.
 
 Podatki o:
-BDP-ju držav: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
-Vrednosti izvozov: https://data.worldbank.org/indicator/bx.gsr.gnfs.cd
-Vrednosti uvozov: https://data.worldbank.org/indicator/NE.IMP.GNFS.CD
-Vrednosti investicij: https://data.worldbank.org/indicator/BX.KLT.DINV.CD.WD
+..*BDP-ju držav: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
+..*Vrednosti izvozov: https://data.worldbank.org/indicator/bx.gsr.gnfs.cd
+..*Vrednosti uvozov: https://data.worldbank.org/indicator/NE.IMP.GNFS.CD
+..*Vrednosti investicij: https://data.worldbank.org/indicator/BX.KLT.DINV.CD.WD
 
 V projektu bom tudi vzel pomembnejše dogodke, ki so vplivali na svetoven trg (2007 Kriza hišnega trga v ZDA, 2016 Brexit, 2009 Grška finančna kriza itd.)
