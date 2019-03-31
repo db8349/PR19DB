@@ -24,4 +24,10 @@ V projektu bom tudi vzel pomembnejše dogodke, ki so vplivali na svetoven trg (2
 
 ## Analiza globalne finančne krize leta 2008
 
+Poročilo bom začel z začetno analizo globalne finančne krize leta 2008, saj je ta najbolj povdarna "svetovna" kriza, ki je imela velik vpliv na veliko večino prebivalstva. Beseda "svetovna" je namenoma podana v narekovajih ker ta kriza ni vplivala na vse trge/regije po svetu, ampak primarno samo na zahodne trge, ker pa so te tako veliki in vplivni pa hitro potegnemo črto na "svetovno" krizo.
+![Map of country GDP growth in 2008](https://github.com/db8349/PR19DB/blob/master/img/country_growth_gdp_2008.png)
+Mapa rasti BDP-ja v letu 2008 nam presenetljivo ne da občutka, da je sploh kaj narobe. Res vidimo da se je rast zahodnih ekonomij upočasnila, kar pa se ne zdi prav glede na katastrofalen učinek, ki ga je imela. Bolj zanimive podatke dobimo, ko pogledamo mapo za leto 2009.
 ![Map of country GDP growth in 2009](https://github.com/db8349/PR19DB/blob/master/img/country_growth_gdp_2009.png)
+Tukaj vidimo kako kako močno se je gospodarstvo skrčilo leto po napovedu krize. Vidi se tudi kako so države, ki bolj povezani z zahodnim trgom, res najbolj občutile to krizo. Druge velike ekonomije kot so Kitajska in Indija pa  so močno rastle.
+
+Za anžuriranje podatkov sem uporabil knjižnico `pandas`, za ustvarjanje teh map pa `geopandas`. Programsko kodo sem razvijal v jupyter okolju in jo shranil v mapo `/src`, ter nakoncu pridobljene grafe izvozil kot slike formata `.png` v mapo `/img`.
