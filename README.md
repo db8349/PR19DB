@@ -30,7 +30,42 @@ Mapa rasti BDP-ja v letu 2008 nam presenetljivo ne da občutka, da je sploh kaj 
 ![Map of country GDP growth in 2009](https://github.com/db8349/PR19DB/blob/master/img/country_growth_gdp_2009.png)
 Tukaj vidimo kako kako močno se je gospodarstvo skrčilo leto po napovedu krize. Vidi se tudi kako so države, ki bolj povezani z zahodnim trgom, res najbolj občutile to krizo. Druge velike ekonomije kot so Kitajska in Indija pa  so močno rastle.
 
-Za anžuriranje podatkov sem uporabil knjižnico `pandas`, za ustvarjanje teh zemljevidov pa `geopandas`. Programsko kodo sem razvijal v jupyter okolju in jo shranil v mapo `/src`, ter nakoncu pridobljene grafe izvozil kot slike formata `.png` v mapo `/img`.
+### Razlaga postopka izdelave zemljevida
+
+Za anžuriranje podatkov sem uporabil knjižnico `pandas`, za ustvarjanje teh zemljevidov pa `geopandas`. Programsko kodo sem razvijal v jupyter okolju in jo shranil v mapo `/src` podatke pa v mapi `/data`
+
+Na začetku sem naložil v program datoteko, ki je vsebovala 2D poligonske oblike držav po svetu, ter iz tega izluščil le mednarodno oznako držav in njihovo obliko. Ta datoteka je hranjena v `/data/world_shape`.
+```python
+world = gpd.read_file(shapefile)[['ADM0_A3', 'geometry']]
+world.head()
+```
+
+Nato sem naložil podatke o rasti BDP-ja držav ter jih postavil na ustrezno 2D poligonsko obliko, ki jo hranim v `world` spremenljivki.
+```python
+df = pd.read_csv(datafile, skiprows=4, usecols=cols)
+df.sample(5)
+
+merged = world.merge(df, left_on='ADM0_A3', right_on='Country Code')
+merged.describe()
+```
+
+Potem prikažem oblike z podatki na zemljevid, kjer tistim državam, ki nimajo podatkov dodelim `#A9A9A9` barvo, na koncu pa še postavim legendo v spodnji levi kot da ne ovira pogleda na zemljevid.
+```python
+fig = plt.figure()
+ax = merged.dropna().plot(column=year, cmap=cmap, figsize=figsize, scheme='fisher_jenks', k=colors, legend=True)
+
+merged[merged.isna().any(axis=1)].plot(ax=ax, facecolor='#A9A9A9')
+
+ax.set_axis_off()
+ax.set_title(title, fontdict={'fontsize': 20})
+ax.get_legend().set_bbox_to_anchor((.12, .4))
+ax.get_legend().set_title('BDP rast')
+```
+
+Na koncu samo še shranim zemljevid v mapo `/map` v formatu `.png`.
+```python
+ax.get_figure().savefig('../img/country_growth_gdp_{}.png'.format(year))
+```
 
 ## Problemi
 
