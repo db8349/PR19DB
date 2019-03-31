@@ -71,3 +71,7 @@ ax.get_figure().savefig('../img/country_growth_gdp_{}.png'.format(year))
 
 * Pomankanje podatkov za nekatere države, kar pomeni da jih ni prikazalo na končnih grafih. To težavo sem na koncu rešil tako, da sem     vse države, za katere nisem imel podatkov, pobarval sivo in jih s tem lažje razločil od drugih. 
 * Ko sem iskal barvno območje, ki bi predstavljalo rast oz. padec BDP-ja držav. Sem sem hotel barvno območje od zelene do rdeče,           `matplotlib` pa ima prevzeto na voljo le od zelene do rumene do rdeče. To pa je problem, ker je veliko držav brez očitne rasti oz.       padca BDP-ja, kar pa pomeni da so na zemljevidu kar nerazločne.
+
+## Začetne ugotovitve
+
+Po začetni analizi se vidi kako je danes svet tesno gospodarsko povezan med seboj, vendar pa da je to bolj opazno pri določenih trgih, ki so na podobnem gospodarskem, ekonomičnim in političnem spektru. Toda to še niso konkretni rezultati, saj nismo analizirali še drugih gospodarskih kriz/dogodkov, zato ni mogoče priti do kakršnegakoli končnega sklepa.
