@@ -21,3 +21,7 @@ Podatki o:
 Podatki predstavljajo vrednosti za vsako državo v ameriških dolarjih ter so v formatu `.csv`.
 
 V projektu bom tudi vzel pomembnejše dogodke, ki so vplivali na svetoven trg (2007 Kriza hišnega trga v ZDA, 2016 Brexit, 2009 Grška finančna kriza itd.)
+
+## Analiza globalne finančne krize leta 2008
+
+![Map of country GDP growth in 2009](https://github.com/db8349/PR19DB/blob/master/img/country_growth_gdp_2009.png)
