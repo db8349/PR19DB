@@ -81,7 +81,7 @@ Podobno kot pri mapi sveta tudi tukaj vidimo, da se gospodarska rast v evropski 
 
 Nazadnje pa še poglejmo kakšna je vrednost tujih investicji v EU.
 ![EU members foreign investments (2016-2017)](img/eu_investments_(2016-2017).png)
-Kot vidimo je kar precej nihanja, vendar je v povprečju še vedno prikazuje rast investicji. Zanimivo pa je to da je vrednost tujih investicij presenetljivo poskočila na Nizozemskem (za kar 2x).
+Kot vidimo je kar precej nihanja, vendar povprečju še vedno prikazuje rast investicji. Zanimivo pa je to da je vrednost tujih investicij presenetljivo poskočila na Nizozemskem (za kar 2x).
 
 ---
 
