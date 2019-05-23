@@ -37,11 +37,15 @@ Sedaj lahko poskusimo odkriti, če obstajata 2 skupini držav, ki imajo med sebo
 Na sliki je središče vsake gruče označeno z rumenimi krogom. Kot vidimo iz grafa naše KMeans gručenje ni bilo uspešno saj sta 2 gruči zelo blizu in ne nakazujeta na neki dve skupini držav.
 
 Kaj pa če bi poskusili pogledati gospodarsko rast na stolpičnem grafu? Tako bi se lepo videlo katerim državam je gospodarska rast padala oz. naraščala. Ker je na svetu držav zelo veliko (prb. 248) bi zadoščevalo, da bi prikazali le prvih 10 držav z največjimi gospodarstvi, saj so dobra napovedniki kakšne so gospodarske razmere v njihovi trgovski skupini.
-![Country GDP growth bar graph 2009](img/top10_country_growth_gdp_2009.png)
+<p align="center">
+  <img src="img/top10_country_growth_gdp_2009.png"/>
+</p>
 Tukaj bolje vidimo kako je ta kriza vplivala na največja gospodarstva na svetu. Naš sklep ostane isti saj vidimo da je to krizo najbolj občutil zahodni svet.
 
 Kako pa je kriza vplivala na vrednost izvozov v teh državah?
-![Country exports bar graph 2009](img/country_exports_(2008-2009).png)
+<p align="center">
+  <img src="img/country_exports_(2008-2009).png"/>
+</p>
 Tukaj vidimo kako je večini držav enakomerno padla vrednost izvozov, kar pa kaže na vsesplošno povezanost svetovnih trgov.
 
 Še zadnja slika, ki na zemljevidu enobarvno prikazuje katerim državam je gospodarstvo rastlo med krizo in katerim je padalo.
