@@ -63,7 +63,7 @@ Pa poglejmo podrobno kako so se izvozi članic spremenil.
 ![Map of EU members exports (2008-2009)](img/eu_exports_(2008-2009).png)
 Podobno kot pri grafu 10 največjih gospodarstev vidimo, da se se izvozi za vse članice relativno enako zmanjšale, kar pa je logično saj so njihova gospodarstva tesno povezana.
 
-Zdaj pa naj pogledamo kako so se spremenile tuje investcije v članicah EU.
+Zdaj pa naj pogledamo kako so se spremenile tuje investicije v članicah EU.
 ![EU members foreign investments (2008-2009)](img/eu_investments_(2008-2009).png)
 Tukaj vidimo da so se tuje investicije drastično spremenile od leta 2008 do 2009. To je seveda pričakovano, saj je gospodarstvo po svetu krčilo, kar pa je posredno povzročilo izguba zaupanja v tuji trg.
 
